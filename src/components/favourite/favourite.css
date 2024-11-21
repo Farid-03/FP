@@ -5,10 +5,12 @@
 
 .favourite__header {
 	margin-bottom: 100px;
+	text-align: center;
 }
 
 .favourite__cards {
-	display: flex;
-	justify-content: space-between;
-	column-gap: 30px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); /* Две колонки */
+	gap: 40px; /* Расстояние между колонками */
+	justify-content: center;
 }

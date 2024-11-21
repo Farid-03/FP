@@ -1,9 +1,8 @@
-import Card from '../card/Card'
+import Cards from '../cards/Cards'
 import './favourite.css'
 
-import cat01Img from './../../img/categories/cat-01.jpg'
-import cat02Img from './../../img/categories/cat-02.jpg'
-import cat03Img from './../../img/categories/cat-03.jpg'
+import Promo1 from './../../img/images/promo-01.jpg'
+import Promo2 from './../../img/images/promo-02.jpg'
 
 const Favourite = () => {
 	return (
@@ -13,9 +12,8 @@ const Favourite = () => {
 					<h2 className='title-2'>FAVOURITE ITEMS</h2>
 				</div>
 				<div className='favourite__cards'>
-					<Card title='Hoodies & Sweetshirt' img={cat01Img} />
-					<Card title='Coats & Parkas' img={cat02Img} />
-					<Card title='Tees & T-Shirt' img={cat03Img} />
+					<Cards title='Hoodies & Sweetshirt' img={Promo1} />
+					<Cards title='Coats & Parkas' img={Promo2} />
 				</div>
 			</div>
 		</section>
