@@ -1,0 +1,72 @@
+.join {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 0;
+	background-color: #e5c643; /* Фон для всей секции */
+	padding: 40px 0; /* Отступы сверху и снизу */
+}
+
+.join__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	max-width: 1200px; /* Ограничим максимальную ширину контента */
+	padding: 100px; /* Внутренние отступы вокруг текста */
+	border-radius: 10px; /* Скругление углов */
+}
+
+.join__header h2 {
+	font-family: Poppins;
+	width: 966px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 55px;
+	font-weight: 900;
+	line-height: 70px;
+	letter-spacing: 0.03em;
+}
+.join__subheader p {
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 35px;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+}
+
+.join__form {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.join__input {
+	width: 300px;
+	height: 45px;
+	padding: 10px;
+	font-size: 16px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+	color: #ffffff;
+}
+
+.join__btn {
+	width: 100px;
+	height: 45px;
+	background: #e5c643;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.join__btn:hover {
+	background: #d0b139;
+}
+
+.join__input:focus {
+	border-color: #e5c643;
+}
