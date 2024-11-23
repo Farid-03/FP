@@ -10,7 +10,7 @@
 
 .favourite__cards {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr); /* Две колонки */
-	gap: 40px; /* Расстояние между колонками */
+	grid-template-columns: repeat(2, 1fr);
+	gap: 40px;
 	justify-content: center;
 }

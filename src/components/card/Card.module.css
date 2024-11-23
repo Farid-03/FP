@@ -1,6 +1,5 @@
 .card {
 	position: relative;
-	/* cursor: pointer; */
 }
 
 .card:hover .card__img {
@@ -72,5 +71,5 @@
 }
 
 .card__icon {
-    position: relative;
+	position: relative;
 }
