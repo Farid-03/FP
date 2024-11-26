@@ -1,11 +1,12 @@
 .favourite {
 	padding-top: 120px;
 	padding-bottom: 143px;
+	cursor: pointer;
 }
 
 .favourite__header {
 	margin-bottom: 100px;
-	text-align: center;
+	text-align: left;
 }
 
 .favourite__cards {

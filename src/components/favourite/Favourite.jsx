@@ -9,7 +9,7 @@ const Favourite = () => {
 		<section className='favourite'>
 			<div className='container'>
 				<div className='favourite__header'>
-					<h2 className='title-2'>FAVOURITE ITEMS</h2>
+					<h2 className='title-2'>Young’s Favourite</h2>
 				</div>
 				<div className='favourite__cards'>
 					<Cards title='Hoodies & Sweetshirt' img={Promo1} />
